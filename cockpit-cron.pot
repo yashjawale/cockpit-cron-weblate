@@ -1,13 +1,13 @@
 # Cockpit Cron translation template.
 # SPDX-License-Identifier: LGPL-2.1-or-later
-# Contact: connect@yashjawale.in
+# Report source-string issues: https://github.com/yashjawale/cockpit-cron/issues
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: cockpit-cron 0.1.0.32.g279d18b\n"
-"Report-Msgid-Bugs-To: connect@yashjawale.in\n"
-"POT-Creation-Date: 2026-11-05 22:55+0530\n"
+"Project-Id-Version: cockpit-cron 0.1.0.33.gf57f3e2\n"
+"Report-Msgid-Bugs-To: https://github.com/yashjawale/cockpit-cron/issues\n"
+"POT-Creation-Date: 2026-11-05 22:59+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
