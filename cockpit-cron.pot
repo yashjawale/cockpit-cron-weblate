@@ -5,9 +5,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: cockpit-cron 0.1.0.33.gf57f3e2\n"
+"Project-Id-Version: cockpit-cron development\n"
 "Report-Msgid-Bugs-To: https://github.com/yashjawale/cockpit-cron/issues\n"
-"POT-Creation-Date: 2026-11-05 22:59+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
