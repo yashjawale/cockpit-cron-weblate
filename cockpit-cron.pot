@@ -1,0 +1,331 @@
+# Cockpit Cron translation template.
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# Report source-string issues: https://github.com/yashjawale/cockpit-cron/issues
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cockpit-cron development\n"
+"Report-Msgid-Bugs-To: https://github.com/yashjawale/cockpit-cron/issues\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/index.html:20 in.yashjawale.cockpit_cron.metainfo.xml:5
+msgid "Cockpit Cron"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:79
+msgid "Failed to save the cron job"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:79
+msgid "Failed to add the cron job"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:85
+msgid "Edit cron job"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:85
+msgid "Add cron job"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:88
+#: src/components/AddCronJobDialog.tsx:91
+msgid "Label"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:92
+msgid "e.g. Backup"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:97
+#: src/components/AddCronJobDialog.tsx:100
+msgid "Schedule"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:117
+msgid "Custom schedule..."
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:123
+msgid "Custom schedule"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:125
+msgid "e.g. 0 4 * * 1"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:132
+#: src/components/AddCronJobDialog.tsx:135
+msgid "Command"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:136
+msgid "e.g. /usr/bin/uptime"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:143
+msgid "Save"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:143
+#: src/components/CronJobsToolbar.tsx:46
+msgid "Add job"
+msgstr ""
+
+#: src/components/AddCronJobDialog.tsx:146
+#: src/components/DeleteCronJobDialog.tsx:74
+#: src/components/PruneLogsDialog.tsx:70 src/components/SkipUntilDialog.tsx:234
+#: src/components/ToggleLoggingDialog.tsx:80
+msgid "Cancel"
+msgstr ""
+
+#: src/components/CronJobLogs.tsx:135
+msgid "Loading logs..."
+msgstr ""
+
+#: src/components/CronJobLogs.tsx:141
+msgid "Failed to read the job logs"
+msgstr ""
+
+#: src/components/CronJobLogs.tsx:149
+msgid "No runs recorded yet"
+msgstr ""
+
+#: src/components/CronJobLogs.tsx:172
+msgid "No runs on this day"
+msgstr ""
+
+#: src/components/CronJobLogs.tsx:194
+msgid "No log selected"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:112
+msgid "Enable job"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:127
+msgid "Skipped until $0"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:139 src/components/CronJobRow.tsx:164
+msgid "Job actions"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:147
+msgid "View logs"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:173
+msgid "Edit"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:179 src/components/ToggleLoggingDialog.tsx:77
+msgid "Disable logging"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:182 src/components/PruneLogsDialog.tsx:67
+msgid "Prune logs"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:188 src/components/ToggleLoggingDialog.tsx:77
+msgid "Enable logging"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:192
+msgid "Skip until..."
+msgstr ""
+
+#: src/components/CronJobRow.tsx:195 src/components/DeleteCronJobDialog.tsx:71
+msgid "Delete"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:202
+msgid "Job logs"
+msgstr ""
+
+#: src/components/CronJobsList.tsx:143
+msgid "No jobs match the filter"
+msgstr ""
+
+#: src/components/CronJobsList.tsx:144
+msgid "No system cron jobs"
+msgstr ""
+
+#: src/components/CronJobsList.tsx:144
+msgid "No user cron jobs"
+msgstr ""
+
+#: src/components/CronJobsList.tsx:148
+msgid "Loading cron jobs..."
+msgstr ""
+
+#: src/components/CronJobsList.tsx:153
+msgid "Failed to read the cron jobs"
+msgstr ""
+
+#: src/components/CronJobsList.tsx:162 src/manifest.json:0
+msgid "Cron jobs"
+msgstr ""
+
+#: src/components/CronJobsToolbar.tsx:51
+msgid "Filter jobs"
+msgstr ""
+
+#: src/components/DeleteCronJobDialog.tsx:53
+#: src/components/DeleteCronJobDialog.tsx:63
+msgid "Failed to delete the cron job"
+msgstr ""
+
+#: src/components/DeleteCronJobDialog.tsx:61
+msgid "Delete cron job \"$0\"?"
+msgstr ""
+
+#: src/components/DeleteCronJobDialog.tsx:64
+msgid "The cron job \"$0\" will be permanently removed."
+msgstr ""
+
+#: src/components/DeleteCronJobDialog.tsx:66
+msgid "Its log file \"$0\" will be deleted along with it."
+msgstr ""
+
+#: src/components/ImportCronJobsAlert.tsx:83
+msgid "$0 cron job is not managed by this plugin"
+msgid_plural "$0 cron jobs are not managed by this plugin"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/ImportCronJobsAlert.tsx:88
+msgid ""
+"Existing cron jobs outside of the managed section are left untouched. Import "
+"them to manage them from this page."
+msgstr ""
+
+#: src/components/ImportCronJobsAlert.tsx:91
+msgid "Import jobs"
+msgstr ""
+
+#: src/components/LevelSwitcher.tsx:32
+msgid "Cron job level"
+msgstr ""
+
+#: src/components/LevelSwitcher.tsx:34
+msgid "User"
+msgstr ""
+
+#: src/components/LevelSwitcher.tsx:41
+msgid "System"
+msgstr ""
+
+#: src/components/PruneLogsDialog.tsx:52 src/components/PruneLogsDialog.tsx:62
+msgid "Failed to prune the cron job logs"
+msgstr ""
+
+#: src/components/PruneLogsDialog.tsx:60
+msgid "Prune logs of \"$0\"?"
+msgstr ""
+
+#: src/components/PruneLogsDialog.tsx:63
+msgid "The log file of the cron job \"$0\" will be permanently removed."
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:161
+msgid "Failed to skip the cron job"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:175
+msgid "Failed to resume the cron job"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:183
+msgid "Edit skip"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:183
+msgid "Skip cron job"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:186
+msgid "The cron job \"$0\" will not run until the chosen date and time."
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:188
+#: src/components/SkipUntilDialog.tsx:192
+msgid "Skip until date"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:201
+msgid ""
+"The date must be within the next occurrence of the chosen month and day."
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:206
+#: src/components/SkipUntilDialog.tsx:209
+msgid "Skip until time"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:210
+msgid "e.g. 12:00"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:226
+msgid "Skip until"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:230
+msgid "Resume now"
+msgstr ""
+
+#: src/components/ToggleLoggingDialog.tsx:55
+#: src/components/ToggleLoggingDialog.tsx:70
+msgid "Failed to change the cron job logging"
+msgstr ""
+
+#: src/components/ToggleLoggingDialog.tsx:65
+msgid "Enable logging for \"$0\"?"
+msgstr ""
+
+#: src/components/ToggleLoggingDialog.tsx:66
+msgid "Disable logging for \"$0\"?"
+msgstr ""
+
+#: src/components/ToggleLoggingDialog.tsx:72
+msgid "The output of the cron job \"$0\" will be recorded in a log file."
+msgstr ""
+
+#: src/components/ToggleLoggingDialog.tsx:73
+msgid ""
+"The output of the cron job \"$0\" will no longer be logged, and its log file "
+"will be deleted."
+msgstr ""
+
+#: src/manifest.json:0
+msgid "cron"
+msgstr ""
+
+#: src/manifest.json:0
+msgid "automation"
+msgstr ""
+
+#: src/manifest.json:0
+msgid "schedule"
+msgstr ""
+
+#: in.yashjawale.cockpit_cron.metainfo.xml:6
+msgid "Cockpit plugin for managing cron jobs"
+msgstr ""
+
+#: in.yashjawale.cockpit_cron.metainfo.xml:8
+msgid "A simple cockpit plugin for managing cron jobs."
+msgstr ""
+
+#: in.yashjawale.cockpit_cron.metainfo.xml:18
+msgid "Cockpit Project"
+msgstr ""
