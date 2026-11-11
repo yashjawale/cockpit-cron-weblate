@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: src/index.html:20 in.yashjawale.cockpit_cron.metainfo.xml:5
+#: src/index.html:20 in.yashjawale.cockpit-cron.metainfo.xml:5
 msgid "Cockpit Cron"
 msgstr ""
 
@@ -318,14 +318,14 @@ msgstr ""
 msgid "schedule"
 msgstr ""
 
-#: in.yashjawale.cockpit_cron.metainfo.xml:6
+#: in.yashjawale.cockpit-cron.metainfo.xml:6
 msgid "Cockpit plugin for managing cron jobs"
 msgstr ""
 
-#: in.yashjawale.cockpit_cron.metainfo.xml:8
+#: in.yashjawale.cockpit-cron.metainfo.xml:8
 msgid "A simple cockpit plugin for managing cron jobs."
 msgstr ""
 
-#: in.yashjawale.cockpit_cron.metainfo.xml:18
-msgid "Cockpit Project"
+#: in.yashjawale.cockpit-cron.metainfo.xml:18
+msgid "Yash Jawale"
 msgstr ""
