@@ -12,7 +12,7 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
@@ -20,24 +20,68 @@ msgstr ""
 msgid "Cockpit Cron"
 msgstr ""
 
-#: src/components/CronJobLogs.tsx:135
-msgid "Loading logs..."
+#: src/components/CronJobsToolbar.tsx:46
+#: src/components/AddCronJobDialog.tsx:143
+msgid "Add job"
 msgstr ""
 
-#: src/components/CronJobLogs.tsx:141
-msgid "Failed to read the job logs"
+#: src/components/CronJobsToolbar.tsx:51
+msgid "Filter jobs"
 msgstr ""
 
-#: src/components/CronJobLogs.tsx:149
-msgid "No runs recorded yet"
+#: src/components/SkipUntilDialog.tsx:161
+msgid "Failed to skip the cron job"
 msgstr ""
 
-#: src/components/CronJobLogs.tsx:172
-msgid "No runs on this day"
+#: src/components/SkipUntilDialog.tsx:175
+msgid "Failed to resume the cron job"
 msgstr ""
 
-#: src/components/CronJobLogs.tsx:194
-msgid "No log selected"
+#: src/components/SkipUntilDialog.tsx:183
+msgid "Edit skip"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:183
+msgid "Skip cron job"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:186
+msgid "The cron job \"$0\" will not run until the chosen date and time."
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:188
+#: src/components/SkipUntilDialog.tsx:192
+msgid "Skip until date"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:201
+msgid ""
+"The date must be within the next occurrence of the chosen month and day."
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:206
+#: src/components/SkipUntilDialog.tsx:209
+msgid "Skip until time"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:210
+msgid "e.g. 12:00"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:226
+msgid "Skip until"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:230
+msgid "Resume now"
+msgstr ""
+
+#: src/components/SkipUntilDialog.tsx:234
+#: src/components/AddCronJobDialog.tsx:146
+#: src/components/PruneLogsDialog.tsx:70
+#: src/components/ToggleLoggingDialog.tsx:80
+#: src/components/DeleteCronJobDialog.tsx:74
+msgid "Cancel"
 msgstr ""
 
 #: src/components/AddCronJobDialog.tsx:79
@@ -95,51 +139,6 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: src/components/AddCronJobDialog.tsx:143
-#: src/components/CronJobsToolbar.tsx:46
-msgid "Add job"
-msgstr ""
-
-#: src/components/AddCronJobDialog.tsx:146
-#: src/components/DeleteCronJobDialog.tsx:74
-#: src/components/PruneLogsDialog.tsx:70 src/components/SkipUntilDialog.tsx:234
-#: src/components/ToggleLoggingDialog.tsx:80
-msgid "Cancel"
-msgstr ""
-
-#: src/components/DeleteCronJobDialog.tsx:53
-#: src/components/DeleteCronJobDialog.tsx:63
-msgid "Failed to delete the cron job"
-msgstr ""
-
-#: src/components/DeleteCronJobDialog.tsx:61
-msgid "Delete cron job \"$0\"?"
-msgstr ""
-
-#: src/components/DeleteCronJobDialog.tsx:64
-msgid "The cron job \"$0\" will be permanently removed."
-msgstr ""
-
-#: src/components/DeleteCronJobDialog.tsx:66
-msgid "Its log file \"$0\" will be deleted along with it."
-msgstr ""
-
-#: src/components/DeleteCronJobDialog.tsx:71 src/components/CronJobRow.tsx:195
-msgid "Delete"
-msgstr ""
-
-#: src/components/LevelSwitcher.tsx:32
-msgid "Cron job level"
-msgstr ""
-
-#: src/components/LevelSwitcher.tsx:34
-msgid "User"
-msgstr ""
-
-#: src/components/LevelSwitcher.tsx:41
-msgid "System"
-msgstr ""
-
 #: src/components/PruneLogsDialog.tsx:52 src/components/PruneLogsDialog.tsx:62
 msgid "Failed to prune the cron job logs"
 msgstr ""
@@ -156,51 +155,16 @@ msgstr ""
 msgid "Prune logs"
 msgstr ""
 
-#: src/components/SkipUntilDialog.tsx:161
-msgid "Failed to skip the cron job"
+#: src/components/LevelSwitcher.tsx:32
+msgid "Cron job level"
 msgstr ""
 
-#: src/components/SkipUntilDialog.tsx:175
-msgid "Failed to resume the cron job"
+#: src/components/LevelSwitcher.tsx:34
+msgid "User"
 msgstr ""
 
-#: src/components/SkipUntilDialog.tsx:183
-msgid "Edit skip"
-msgstr ""
-
-#: src/components/SkipUntilDialog.tsx:183
-msgid "Skip cron job"
-msgstr ""
-
-#: src/components/SkipUntilDialog.tsx:186
-msgid "The cron job \"$0\" will not run until the chosen date and time."
-msgstr ""
-
-#: src/components/SkipUntilDialog.tsx:188
-#: src/components/SkipUntilDialog.tsx:192
-msgid "Skip until date"
-msgstr ""
-
-#: src/components/SkipUntilDialog.tsx:201
-msgid ""
-"The date must be within the next occurrence of the chosen month and day."
-msgstr ""
-
-#: src/components/SkipUntilDialog.tsx:206
-#: src/components/SkipUntilDialog.tsx:209
-msgid "Skip until time"
-msgstr ""
-
-#: src/components/SkipUntilDialog.tsx:210
-msgid "e.g. 12:00"
-msgstr ""
-
-#: src/components/SkipUntilDialog.tsx:226
-msgid "Skip until"
-msgstr ""
-
-#: src/components/SkipUntilDialog.tsx:230
-msgid "Resume now"
+#: src/components/LevelSwitcher.tsx:41
+msgid "System"
 msgstr ""
 
 #: src/components/ImportCronJobsAlert.tsx:83
@@ -219,8 +183,24 @@ msgstr ""
 msgid "Import jobs"
 msgstr ""
 
-#: src/components/CronJobsToolbar.tsx:51
-msgid "Filter jobs"
+#: src/components/CronJobLogs.tsx:135
+msgid "Loading logs..."
+msgstr ""
+
+#: src/components/CronJobLogs.tsx:141
+msgid "Failed to read the job logs"
+msgstr ""
+
+#: src/components/CronJobLogs.tsx:149
+msgid "No runs recorded yet"
+msgstr ""
+
+#: src/components/CronJobLogs.tsx:172
+msgid "No runs on this day"
+msgstr ""
+
+#: src/components/CronJobLogs.tsx:194
+msgid "No log selected"
 msgstr ""
 
 #: src/components/ToggleLoggingDialog.tsx:55
@@ -252,6 +232,27 @@ msgstr ""
 
 #: src/components/ToggleLoggingDialog.tsx:77 src/components/CronJobRow.tsx:179
 msgid "Disable logging"
+msgstr ""
+
+#: src/components/DeleteCronJobDialog.tsx:53
+#: src/components/DeleteCronJobDialog.tsx:63
+msgid "Failed to delete the cron job"
+msgstr ""
+
+#: src/components/DeleteCronJobDialog.tsx:61
+msgid "Delete cron job \"$0\"?"
+msgstr ""
+
+#: src/components/DeleteCronJobDialog.tsx:64
+msgid "The cron job \"$0\" will be permanently removed."
+msgstr ""
+
+#: src/components/DeleteCronJobDialog.tsx:66
+msgid "Its log file \"$0\" will be deleted along with it."
+msgstr ""
+
+#: src/components/DeleteCronJobDialog.tsx:71 src/components/CronJobRow.tsx:195
+msgid "Delete"
 msgstr ""
 
 #: src/components/CronJobRow.tsx:112
