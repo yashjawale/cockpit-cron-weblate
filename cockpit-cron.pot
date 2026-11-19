@@ -151,7 +151,7 @@ msgstr ""
 msgid "The log file of the cron job \"$0\" will be permanently removed."
 msgstr ""
 
-#: src/components/PruneLogsDialog.tsx:67 src/components/CronJobRow.tsx:182
+#: src/components/PruneLogsDialog.tsx:67 src/components/CronJobRow.tsx:204
 msgid "Prune logs"
 msgstr ""
 
@@ -183,23 +183,27 @@ msgstr ""
 msgid "Import jobs"
 msgstr ""
 
-#: src/components/CronJobLogs.tsx:135
+#: src/components/CronJobLogs.tsx:137
 msgid "Loading logs..."
 msgstr ""
 
-#: src/components/CronJobLogs.tsx:141
+#: src/components/CronJobLogs.tsx:143
 msgid "Failed to read the job logs"
 msgstr ""
 
-#: src/components/CronJobLogs.tsx:149
+#: src/components/CronJobLogs.tsx:151
 msgid "No runs recorded yet"
 msgstr ""
 
-#: src/components/CronJobLogs.tsx:172
+#: src/components/CronJobLogs.tsx:174
 msgid "No runs on this day"
 msgstr ""
 
-#: src/components/CronJobLogs.tsx:194
+#: src/components/CronJobLogs.tsx:195
+msgid "Manual"
+msgstr ""
+
+#: src/components/CronJobLogs.tsx:208
 msgid "No log selected"
 msgstr ""
 
@@ -226,11 +230,11 @@ msgid ""
 "will be deleted."
 msgstr ""
 
-#: src/components/ToggleLoggingDialog.tsx:77 src/components/CronJobRow.tsx:188
+#: src/components/ToggleLoggingDialog.tsx:77 src/components/CronJobRow.tsx:210
 msgid "Enable logging"
 msgstr ""
 
-#: src/components/ToggleLoggingDialog.tsx:77 src/components/CronJobRow.tsx:179
+#: src/components/ToggleLoggingDialog.tsx:77 src/components/CronJobRow.tsx:201
 msgid "Disable logging"
 msgstr ""
 
@@ -251,59 +255,67 @@ msgstr ""
 msgid "Its log file \"$0\" will be deleted along with it."
 msgstr ""
 
-#: src/components/DeleteCronJobDialog.tsx:71 src/components/CronJobRow.tsx:195
+#: src/components/DeleteCronJobDialog.tsx:71 src/components/CronJobRow.tsx:217
 msgid "Delete"
 msgstr ""
 
-#: src/components/CronJobRow.tsx:112
+#: src/components/CronJobRow.tsx:117
 msgid "Enable job"
 msgstr ""
 
-#: src/components/CronJobRow.tsx:127
+#: src/components/CronJobRow.tsx:132
 msgid "Skipped until $0"
 msgstr ""
 
-#: src/components/CronJobRow.tsx:139 src/components/CronJobRow.tsx:164
+#: src/components/CronJobRow.tsx:144 src/components/CronJobRow.tsx:186
 msgid "Job actions"
 msgstr ""
 
-#: src/components/CronJobRow.tsx:147
+#: src/components/CronJobRow.tsx:151
+msgid "Run now"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:159
+msgid "Running job"
+msgstr ""
+
+#: src/components/CronJobRow.tsx:169
 msgid "View logs"
 msgstr ""
 
-#: src/components/CronJobRow.tsx:173
+#: src/components/CronJobRow.tsx:195
 msgid "Edit"
 msgstr ""
 
-#: src/components/CronJobRow.tsx:192
+#: src/components/CronJobRow.tsx:214
 msgid "Skip until..."
 msgstr ""
 
-#: src/components/CronJobRow.tsx:202
+#: src/components/CronJobRow.tsx:224
 msgid "Job logs"
 msgstr ""
 
-#: src/components/CronJobsList.tsx:143
+#: src/components/CronJobsList.tsx:145
 msgid "No jobs match the filter"
 msgstr ""
 
-#: src/components/CronJobsList.tsx:144
+#: src/components/CronJobsList.tsx:146
 msgid "No system cron jobs"
 msgstr ""
 
-#: src/components/CronJobsList.tsx:144
+#: src/components/CronJobsList.tsx:146
 msgid "No user cron jobs"
 msgstr ""
 
-#: src/components/CronJobsList.tsx:148
+#: src/components/CronJobsList.tsx:150
 msgid "Loading cron jobs..."
 msgstr ""
 
-#: src/components/CronJobsList.tsx:153
+#: src/components/CronJobsList.tsx:155
 msgid "Failed to read the cron jobs"
 msgstr ""
 
-#: src/components/CronJobsList.tsx:162 src/manifest.json:0
+#: src/components/CronJobsList.tsx:164 src/manifest.json:0
 msgid "Cron jobs"
 msgstr ""
 
